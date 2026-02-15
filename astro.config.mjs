@@ -4,10 +4,11 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://about.kaharagia.org',
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Kaharagia Docs',
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/kaharez/about.kaharagia' }],
 			sidebar: [
 				{
 					label: 'Guides',
