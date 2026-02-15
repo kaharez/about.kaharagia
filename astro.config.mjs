@@ -4,7 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://about.kaharagia.org',
+	site: 'https://kaharez.github.io',
+	base: '/about.kaharagia',
 	integrations: [
 		starlight({
 			title: 'Kaharagia Docs',
