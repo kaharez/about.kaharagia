@@ -8,12 +8,12 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Kaharagia Docs',
+			customCss: ['./src/styles/kaharagia.css'],
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/kaharez/about.kaharagia' }],
 			sidebar: [
 				{
 					label: 'Guides',
 					items: [
-						// Each item here is one entry in the navigation menu.
 						{ label: 'Example Guide', slug: 'guides/example' },
 					],
 				},
